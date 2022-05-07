@@ -2,6 +2,11 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #757575;
 }
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
 :root {
   --backgr-header: #ffffff;
   --backgr-hero: #2f303a;
@@ -46,6 +51,8 @@ body {
 .contact .link:focus {
   color: #2196f3;
 }
+/*CONTAINER*/
+
 /* background */
 .hero {
   background-color: var(--backgr-hero);
@@ -255,3 +262,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
