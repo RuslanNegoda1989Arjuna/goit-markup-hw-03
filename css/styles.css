@@ -166,10 +166,14 @@ ul {
 /*Оссобенности*/
 .specifics-list {
   display: flex;
-}
-.specifics-list {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.container .specifics-list .item {
+  width: 270px;
+}
+.specifics-list .item + .item {
+  margin-left: 30px;
 }
 .section-title {
   position: absolute;
@@ -191,6 +195,8 @@ ul {
   text-transform: uppercase;
 
   color: #212121;
+
+  padding-bottom: 10px;
 }
 .uniqueness .text {
   font-size: 14px;
@@ -209,6 +215,16 @@ ul {
   letter-spacing: 0.03em;
   color: var(--color-title);
 }
+.our-work .title {
+  margin-bottom: 50px;
+}
+.work-list {
+  display: flex;
+  padding-bottom: 94px;
+}
+.work-list .item + .item {
+  margin-left: 30px;
+}
 /* наша команда*/
 .team .second-title {
   font-weight: 500;
@@ -218,6 +234,8 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-title);
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .team .text {
   font-size: 16px;
@@ -228,20 +246,36 @@ ul {
 
   color: #757575;
 }
+.team .title {
+  padding-top: 94px;
+  padding-bottom: 50px;
+}
+.team-list {
+  display: flex;
+  padding-bottom: 94px;
+}
+.team-list .item + .item {
+  margin-left: 30px;
+}
 /* Footer*/
 .footer .logo {
+  display: block;
   color: #ffffff;
+  /*margin-top: 60px;
+  margin-bottom: 30px;*/
+  padding-top: 60px;
+  padding-bottom: 30px;
 }
 .footer .text {
   font-size: 14px;
   line-height: 1.71;
 
   letter-spacing: 0.03em;
-  text-indent: 45px;
 
   color: #ffffff;
 }
 .footer .link {
+  display: block;
   font-size: 14px;
   line-height: 1.71;
 
@@ -253,7 +287,13 @@ ul {
 .footer .link:focus {
   color: #2196f3;
 }
-
+.address-item:first-child {
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+.address-item:last-child {
+  padding-bottom: 60px;
+}
 /*PORTFOLIO*/
 .link-portfolio {
   color: var(--color-button);
