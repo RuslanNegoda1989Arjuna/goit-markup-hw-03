@@ -83,8 +83,8 @@ ul {
 .link-studio,
 .link-portfolio {
   display: block;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .site-nav .item + .item {
   margin-left: 50px;
@@ -169,16 +169,19 @@ ul {
   color: #ffffff;
   border: 0;
 }
-.hero-section {
+.hero {
   padding-top: 200px;
   padding-bottom: 200px;
 }
 /*Оссобенности*/
-.specifics-list {
-  display: flex;
+.uniqueness {
   padding-top: 94px;
   padding-bottom: 94px;
 }
+.specifics-list {
+  display: flex;
+}
+
 .container .specifics-list .item {
   width: 270px;
 }
